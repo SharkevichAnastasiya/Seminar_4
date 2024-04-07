@@ -1,0 +1,131 @@
+2024-04-03 13:31:32 INFO ====== WebDriver manager ======
+2024-04-03 13:31:32 INFO Get LATEST chromedriver version for google-chrome
+2024-04-03 13:31:36 INFO Get LATEST chromedriver version for google-chrome
+2024-04-03 13:31:36 INFO Driver [C:\Users\ezhov\.wdm\drivers\chromedriver\win64\123.0.6312.86\chromedriver-win32/chromedriver.exe] found in cache
+2024-04-03 13:31:37 INFO Test 1 Starting
+2024-04-03 13:31:37 INFO Send test to element login form
+2024-04-03 13:31:37 INFO Send test to element pasword form
+2024-04-03 13:31:39 INFO Test 2 Starting
+2024-04-03 13:31:39 INFO Send Testovich13 to element login form
+2024-04-03 13:31:39 INFO Send 41502dcd87 to element pasword form
+2024-04-03 13:31:40 INFO Test3 Stsrting
+2024-04-03 13:31:40 INFO Send NEW POST to element title form
+2024-04-03 13:31:40 INFO Send SELENIUM HERE! to element description form
+2024-04-03 13:31:40 INFO Send THIS IS CONTENT BY SELENIUM! to element content form
+2024-04-03 13:31:43 INFO Test Contact_us Starting
+2024-04-03 13:31:43 INFO Send Testov to element contact name form
+2024-04-03 13:31:44 INFO Send ezhov@isd.su to element contact email form
+2024-04-03 13:31:44 INFO Send Hello World! to element contact content form
+2024-04-03 13:31:45 INFO Get alert message
+2024-04-03 13:31:45 INFO Alert message is Form successfully submitted
+2024-04-03 13:31:45 INFO Test2 Starting
+2024-04-03 13:31:45 INFO Send Testovich13 to element login form
+2024-04-03 13:31:56 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="login"]/div[1]/label/input')
+Stacktrace:
+	GetHandleVerifier [0x00EC4CC3+225091]
+	(No symbol) [0x00DF4E11]
+	(No symbol) [0x00C99A7A]
+	(No symbol) [0x00CD175B]
+	(No symbol) [0x00CD188B]
+	(No symbol) [0x00D07882]
+	(No symbol) [0x00CEF5A4]
+	(No symbol) [0x00D05CB0]
+	(No symbol) [0x00CEF2F6]
+	(No symbol) [0x00CC79B9]
+	(No symbol) [0x00CC879D]
+	sqlite3_dbdata_init [0x01339A63+4064547]
+	sqlite3_dbdata_init [0x0134106A+4094762]
+	sqlite3_dbdata_init [0x0133B968+4072488]
+	sqlite3_dbdata_init [0x0103C9C9+930953]
+	(No symbol) [0x00E007E4]
+	(No symbol) [0x00DFAD08]
+	(No symbol) [0x00DFAE31]
+	(No symbol) [0x00DECAA0]
+	BaseThreadInitThunk [0x76EEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B875F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77B875C4+180]
+
+2024-04-03 13:31:56 ERROR Element ('xpath', '//*[@id="login"]/div[1]/label/input') not found
+2024-04-03 13:31:56 INFO Send 41502dcd87 to element pasword form
+2024-04-03 13:32:06 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="login"]/div[2]/label/input')
+Stacktrace:
+	GetHandleVerifier [0x00EC4CC3+225091]
+	(No symbol) [0x00DF4E11]
+	(No symbol) [0x00C99A7A]
+	(No symbol) [0x00CD175B]
+	(No symbol) [0x00CD188B]
+	(No symbol) [0x00D07882]
+	(No symbol) [0x00CEF5A4]
+	(No symbol) [0x00D05CB0]
+	(No symbol) [0x00CEF2F6]
+	(No symbol) [0x00CC79B9]
+	(No symbol) [0x00CC879D]
+	sqlite3_dbdata_init [0x01339A63+4064547]
+	sqlite3_dbdata_init [0x0134106A+4094762]
+	sqlite3_dbdata_init [0x0133B968+4072488]
+	sqlite3_dbdata_init [0x0103C9C9+930953]
+	(No symbol) [0x00E007E4]
+	(No symbol) [0x00DFAD08]
+	(No symbol) [0x00DFAE31]
+	(No symbol) [0x00DECAA0]
+	BaseThreadInitThunk [0x76EEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B875F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77B875C4+180]
+
+2024-04-03 13:32:06 ERROR Element ('xpath', '//*[@id="login"]/div[2]/label/input') not found
+2024-04-03 13:32:06 INFO Test3 Stsrting
+2024-04-03 13:32:16 ERROR Find element exception
+Traceback (most recent call last):
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\BaseApp.py", line 13, in find_element
+    element = WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ezhov\PycharmProjects\Seminar_4HW\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//*[@id="create-btn"]')
+Stacktrace:
+	GetHandleVerifier [0x00EC4CC3+225091]
+	(No symbol) [0x00DF4E11]
+	(No symbol) [0x00C99A7A]
+	(No symbol) [0x00CD175B]
+	(No symbol) [0x00CD188B]
+	(No symbol) [0x00D07882]
+	(No symbol) [0x00CEF5A4]
+	(No symbol) [0x00D05CB0]
+	(No symbol) [0x00CEF2F6]
+	(No symbol) [0x00CC79B9]
+	(No symbol) [0x00CC879D]
+	sqlite3_dbdata_init [0x01339A63+4064547]
+	sqlite3_dbdata_init [0x0134106A+4094762]
+	sqlite3_dbdata_init [0x0133B968+4072488]
+	sqlite3_dbdata_init [0x0103C9C9+930953]
+	(No symbol) [0x00E007E4]
+	(No symbol) [0x00DFAD08]
+	(No symbol) [0x00DFAE31]
+	(No symbol) [0x00DECAA0]
+	BaseThreadInitThunk [0x76EEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B875F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77B875C4+180]
+
+2024-04-03 13:32:16 INFO Send NEW POST to element title form
+2024-04-03 13:32:16 INFO Send SELENIUM HERE! to element description form
+2024-04-03 13:32:16 INFO Send THIS IS CONTENT BY SELENIUM! to element content form
+2024-04-03 13:32:19 INFO Test Contact_us Starting
+2024-04-03 13:32:19 INFO Send Testov to element contact name form
+2024-04-03 13:32:19 INFO Send ezhov@isd.su to element contact email form
+2024-04-03 13:32:19 INFO Send Hello World! to element contact content form
+2024-04-03 13:32:20 INFO Get alert message
+2024-04-03 13:32:20 INFO Alert message is Form successfully submitted
